@@ -1,0 +1,29 @@
+Project Title - Enterprise Sales Intelligence
+
+1.Project Overview
+This project focuses on analyzing sales performance, profitability, product performance, and regional trends using Microsoft Power BI and AdventureWorks dataset.
+
+2.Project Objective
+The objective is to create an interactive business intelligence dashboard that helps users explore sales, profitability and product performance.
+
+3.Tools and Technology
+- Microsoft Power BI
+- Power Query
+- Power DAX
+- Data Modeling
+- Data Visualization
+
+4.Dataset- Adventureworks dataset
+
+5.Key Features
+- Total sales KPI
+- Total Orders KPI
+- Total Profit KPI
+- Profit Margin KPI
+- Product category sales analysis
+- Regional sales analysis
+- Monthly sales trend
+- Interactive filters
+
+6.Expected Outcome
+The dashboard provides interactive visualizations to support sales performance monitoring and profitability analysis.

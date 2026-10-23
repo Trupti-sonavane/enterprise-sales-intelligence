@@ -1,0 +1,24 @@
+DATA TRANSFORMATION DOCUMENTATION
+
+Project: Enterprise Sales Intelligence Dashboard
+Tool: Microsoft Power BI - Power Query
+
+1. OBJECTIVE
+To prepare the AdventureWorks dataset for accurate
+analysis and visualization in Power BI.
+
+2. DATA TRANSFORMATION
+Data cleaning and transformation were performed
+using Power Query.
+
+3. TRANSFORMATION DETAILS
+The exact transformation steps will be documented
+after verifying the Applied Steps in Power Query.
+
+4. PURPOSE
+To improve data quality and prepare the data
+for dashboard reporting and analysis.
+
+5. VALIDATION
+The transformed data should be checked for
+missing values, incorrect data types, and data quality issues.

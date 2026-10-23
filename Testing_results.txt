@@ -1,0 +1,24 @@
+TESTING AND ACCURACY RESULTS
+
+Project: Enterprise Sales Intelligence Dashboard
+Tool: Microsoft Power BI
+
+1. DASHBOARD VISUALS
+Verified that dashboard charts and KPI cards
+display the expected information.
+
+2. FILTERS AND SLICERS
+Filters and slicers should be tested to confirm
+that dashboard visuals update correctly.
+
+3. DATA ACCURACY
+Sales figures, order counts, and profit values
+should be checked against the source data.
+
+4. DATA MODEL
+Relationships between tables should be checked
+to ensure correct filtering and calculations.
+
+5. TESTING STATUS
+Testing results will be updated after completing
+the validation of each item.

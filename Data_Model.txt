@@ -1,0 +1,39 @@
+DATA MODEL DOCUMENTATION
+
+Project: Enterprise Sales Intelligence Dashboard
+
+1. OVERVIEW
+The data model connects sales data with related
+tables to analyze sales performance, profitability,
+products, customers, resellers, and regions.
+
+2. DATA TABLES
+- Sales
+- SalesOrder
+- Product
+- Customer
+- Reseller
+- SalesTerritory
+- Date
+
+3. FACT TABLE
+Sales is the primary fact table containing sales
+transactions and measures such as Sales Amount,
+Order Quantity, and Total Product Cost.
+
+4. DIMENSION TABLES
+Product: Product and category analysis
+Customer: Customer-related analysis
+Reseller: Reseller performance analysis
+SalesTerritory: Regional sales analysis
+Date: Time-based analysis
+SalesOrder: Sales order information
+
+5. DATA MODELING OBJECTIVE
+The model supports interactive filtering and
+analysis across products, customers, resellers,
+regions, and dates.
+
+NOTE
+Relationships and cardinality should be verified
+against the actual Power BI data model.

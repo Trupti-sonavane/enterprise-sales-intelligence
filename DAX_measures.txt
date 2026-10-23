@@ -1,0 +1,38 @@
+DAX MEASURES DOCUMENTATION
+
+Project: Enterprise Sales Intelligence Dashboard
+Tool: Microsoft Power BI
+
+1. TOTAL ORDERS
+
+Total Orders = DISTINCTCOUNT(SalesOrder[Sales Order])
+
+Purpose:
+Counts unique sales orders in the SalesOrder table.
+
+2. TOTAL SALES
+
+Purpose:
+Measures the total sales revenue.
+The formula should match the actual measure
+used in the Power BI report.
+
+3. TOTAL PROFIT
+
+Purpose:
+Measures the total profit generated from sales.
+The formula should match the actual measure
+used in the Power BI report.
+
+4. PROFIT MARGIN %
+
+Purpose:
+Calculates profit as a percentage of sales.
+The formula should match the actual measure
+used in the Power BI report.
+
+5. ADDITIONAL MEASURES
+
+Additional DAX measures may be documented
+after verifying the actual formulas used
+in the Power BI project.

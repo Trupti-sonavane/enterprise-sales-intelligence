@@ -1,0 +1,33 @@
+POWER BI SALES INTELLIGENCE PROJECT
+TESTING RESULTS
+
+1. Dashboard Visuals
+Test: Verified that dashboard charts and KPI cards are displayed.
+Result: To be verified.
+
+2. Year Slicer
+Test: Selected different years and checked whether dashboard visuals update.
+Result: Requires verification.
+
+3. Region Slicer
+Test: Selected a region and checked whether dashboard visuals update.
+Result: Requires verification.
+
+4. Combined Filters
+Test: Selected a year and a region together.
+Result: Requires verification.
+
+5. Data Model
+Test: Reviewed relationships between Sales, Date, and other tables.
+Result: Relationships reviewed.
+
+6. DAX Measures
+Test: Reviewed available DAX measures and their formulas.
+Result: Requires further validation.
+
+7. Data Accuracy
+Test: Compare displayed sales and profit values with the source data.
+Result: Pending.
+
+OVERALL STATUS
+Testing is in progress. Final results will be recorded after validation.
