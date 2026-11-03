@@ -1,0 +1,56 @@
+TESTING AND ACCURACY RESULTS
+
+Project: Enterprise Sales Intelligence Dashboard
+Tool: Microsoft Power BI
+
+1. DASHBOARD VISUALS
+Verified that dashboard charts and KPI cards
+display the expected information.
+
+2. FILTERS AND SLICERS
+Filters and slicers should be tested to confirm
+that dashboard visuals update correctly.
+
+3. DATA ACCURACY
+Sales figures, order counts, and profit values
+should be checked against the source data.
+
+4. DATA MODEL
+Relationships between tables should be checked
+to ensure correct filtering and calculations.
+
+5. TESTING STATUS
+Testing results will be updated after completing
+the validation of each item.
+
+DAX MEASURE TESTING & VALIDATION
+
+1. YTD Sales
+
+Measure:
+YTD Sales
+
+Testing Method:
+Created a temporary table visual in Power BI using Year, Total Sales, and YTD Sales measures.
+
+Validation:
+Verified the YTD Sales calculations across different years.
+
+Expected Result:
+YTD Sales should calculate cumulative sales from the beginning of each year up to the selected date and reset when a new year starts.
+
+Actual Result:
+YTD Sales calculation was manually verified and the expected year-wise cumulative behavior was observed.
+
+Drill-through Testing:
+Test: Right-clicked a Region in the Sales by Region chart and navigated to the Region Details page.
+Expected Result: Region-specific product sales and profit details should appear.
+Actual Result: Region Details page opened successfully with the selected Region's data.
+
+Row-Level Security (RLS) Testing:
+Role Name: RegionManager
+Filter Condition: Region = Northwest
+Expected Result: Only Northwest region data should be visible.
+Actual Result: Other region values were hidden when the role was applied.
+
+
