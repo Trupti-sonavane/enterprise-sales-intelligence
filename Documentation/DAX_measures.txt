@@ -1,0 +1,117 @@
+DAX MEASURES DOCUMENTATION
+
+Project: Enterprise Sales Intelligence Dashboard
+Tool: Microsoft Power BI
+
+1. TOTAL ORDERS
+
+Total Orders = DISTINCTCOUNT(SalesOrder[Sales Order])
+
+Purpose:
+Counts unique sales orders in the SalesOrder table.
+
+2. TOTAL SALES
+
+Purpose:
+Measures the total sales revenue.
+The formula should match the actual measure
+used in the Power BI report.
+
+3. TOTAL PROFIT
+
+Purpose:
+Measures the total profit generated from sales.
+The formula should match the actual measure
+used in the Power BI report.
+
+4. PROFIT MARGIN %
+
+Purpose:
+Calculates profit as a percentage of sales.
+The formula should match the actual measure
+used in the Power BI report.
+
+5. ADDITIONAL MEASURES
+
+Additional DAX measures may be documented
+after verifying the actual formulas used
+in the Power BI project.### 5. Profit Margin %
+Calculates profit as a percentage of total sales.
+
+```dax
+Profit Margin % =
+DIVIDE(
+    [Total Profit],
+    [Total Sales],
+    0
+)
+```
+## Advanced DAX Measures
+
+### 1. YTD Sales
+Calculates cumulative sales from the beginning of the year up to the selected date.
+
+```dax
+YTD Sales =
+TOTALYTD(
+    [Total Sales],
+    'Date'[Date]
+)
+```
+
+### 2. Previous Year Sales
+Calculates sales for the corresponding period in the previous year.
+
+```dax
+Previous Year Sales =
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR('Date'[Date])
+)
+```
+
+### 3. YoY Growth %
+Calculates the percentage increase or decrease in sales compared to the previous year.
+
+```dax
+YoY Growth % =
+DIVIDE(
+    [Total Sales] - [Previous Year Sales],
+    [Previous Year Sales],
+    0
+)
+```
+
+### 4. Rolling 3-Month Average Sales
+Calculates the average monthly sales over a rolling three-month period.
+
+```dax
+Rolling 3-Month Average Sales =
+DIVIDE(
+    CALCULATE(
+        [Total Sales],
+        DATESINPERIOD(
+            'Date'[Date],
+            MAX('Date'[Date]),
+            -3,
+            MONTH
+        )
+    ),
+    3
+)
+```
+
+### 5. Profit Margin %
+Calculates profit as a percentage of total sales.
+
+```dax
+Profit Margin % =
+DIVIDE(
+    [Total Profit],
+    [Total Sales],
+    0
+)
+```
+
+## Note
+These measures are created for time-based sales analysis, year-over-year comparison, rolling trend analysis, and profitability measurement. Further validation is required to confirm calculation accuracy.
