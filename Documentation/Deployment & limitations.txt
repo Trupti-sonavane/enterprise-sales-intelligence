@@ -1,0 +1,51 @@
+# Deployment and Limitations
+
+## Deployment
+
+The Enterprise Sales Intelligence Dashboard was developed using Microsoft Power BI Desktop. The final dashboard was saved in Power BI (.pbix) format.
+
+The project files, documentation, screenshots, testing results, and presentation materials were organized and maintained in a GitHub repository.
+
+### Deployment Activities
+
+- Developed and tested the dashboard using Power BI Desktop.
+- Saved the completed dashboard as a `.pbix` file.
+- Organized project resources into separate folders.
+- Uploaded the project files and supporting documentation to GitHub.
+- Prepared screenshots to demonstrate dashboard functionality and interactive features.
+
+### Future Deployment Scope
+
+- Publish the dashboard to Power BI Service.
+- Configure scheduled data refresh.
+- Share reports with authorized business users.
+- Implement automated data integration and refresh pipelines.
+
+## Project Limitations
+
+The project has certain limitations that can be addressed in future enhancements.
+
+1. Sample Dataset: The project uses Microsoft's AdventureWorks sample dataset rather than live organizational sales data.
+
+2. Desktop Environment: The dashboard is currently developed and accessed through Power BI Desktop.
+
+3. Data Refresh: Automated data refresh has not been configured.
+
+4. Cloud Deployment: Publishing and sharing through Power BI Service is not yet completed.
+
+5. Data Integration: Real-time integration with external enterprise systems is not implemented.
+
+6. Scalability: Performance with very large, continuously growing enterprise datasets has not been evaluated.
+
+## Future Enhancements
+
+- Integrate real-time or regularly updated sales data.
+- Implement automated ETL pipelines.
+- Configure scheduled refresh through Power BI Service.
+- Enable secure cloud-based dashboard sharing.
+- Introduce advanced sales forecasting and predictive analytics.
+- Optimize dashboard performance for larger datasets.
+
+## Conclusion
+
+The project successfully demonstrates the development of an interactive sales intelligence dashboard using Power BI Desktop. Although cloud deployment and automated data integration remain future enhancements, the current solution provides a foundation for enterprise sales analysis and business intelligence reporting.

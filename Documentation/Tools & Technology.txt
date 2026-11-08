@@ -1,0 +1,65 @@
+# Tools and Technologies
+
+The Enterprise Sales Intelligence Dashboard was developed using various data analytics and business intelligence tools to transform raw sales data into meaningful business insights.
+
+## Microsoft Power BI
+**Purpose:** Dashboard Development and Data Visualization
+
+- Developed an interactive sales intelligence dashboard.
+- Created KPI cards, charts, and visual reports.
+- Implemented Year and Region filters.
+- Developed a regional Drill-through page.
+- Implemented Row-Level Security (RLS).
+
+## Power Query
+**Purpose:** Data Cleaning and Transformation
+
+- Imported and prepared the dataset.
+- Performed data cleaning and transformation.
+- Checked and corrected data types.
+- Prepared structured tables for analysis.
+
+## DAX (Data Analysis Expressions)
+**Purpose:** Business Calculations and Analytical Measures
+
+- Created calculated measures and KPIs.
+- Calculated Total Sales, Total Profit, and Profit Margin.
+- Implemented Year-to-Date Sales and Previous Year Sales.
+- Created Year-over-Year Growth.
+- Developed Rolling 3-Month Average Sales.
+
+## Microsoft AdventureWorks
+**Purpose:** Sample Business Dataset
+
+- Used Microsoft's AdventureWorks sample database.
+- Analyzed sales, products, customers, resellers, and regional information.
+- Used structured relational data for business intelligence analysis.
+
+## Git and GitHub
+**Purpose:** Version Control and Project Management
+
+- Used Git for version control.
+- Used GitHub to store and organize project files.
+- Maintained project documentation, dashboard files, screenshots, and testing results.
+
+## Microsoft PowerPoint
+**Purpose:** Project Presentation
+
+- Prepared the project presentation.
+- Organized business objectives, methodology, dashboard insights, and conclusions.
+
+## Technology Summary
+
+| Technology | Application |
+|---|---|
+| Power BI | Dashboard Development |
+| Power Query | Data Cleaning |
+| DAX | KPI Calculations |
+| AdventureWorks | Dataset |
+| Git | Version Control |
+| GitHub | Repository Management |
+| PowerPoint | Project Presentation |
+
+## Conclusion
+
+These tools and technologies were integrated to develop an interactive Business Intelligence solution for analyzing enterprise sales performance and supporting data-driven decision-making.

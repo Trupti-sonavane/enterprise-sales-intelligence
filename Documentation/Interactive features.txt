@@ -1,0 +1,44 @@
+# Interactive Features
+
+The Enterprise Sales Intelligence Dashboard was designed with interactive features to help users explore sales data, analyze business performance, and gain insights from different perspectives.
+
+## Year Filter
+
+- Allows users to filter dashboard data based on the selected year.
+- Helps compare sales performance across different years.
+- Updates dashboard visuals dynamically according to the selected year.
+
+## Region Filter
+
+- Enables users to analyze sales performance for specific geographical regions.
+- Helps identify high-performing and low-performing regions.
+- Updates relevant charts and KPI values based on the selected region.
+
+## Combined Filtering
+
+- Allows users to apply Year and Region filters together.
+- Provides more focused and detailed analysis.
+- Helps users examine sales performance for a particular region during a specific year.
+
+## Drill-through Functionality
+
+- A dedicated Region Details page was developed for detailed regional analysis.
+- Users can right-click a region in the Sales by Region chart and navigate to the Drill-through page.
+- Displays detailed information based on the selected region.
+- Helps users explore underlying sales data without navigating through multiple reports.
+
+## Dynamic Visual Interaction
+
+- Dashboard charts and KPI cards respond to user selections.
+- Selecting data points helps users explore related information.
+- Interactive visualizations make sales analysis easier and more effective.
+
+## Row-Level Security (RLS)
+
+- Implemented Row-Level Security using a RegionManager role.
+- Designed to demonstrate region-based data access restrictions.
+- Helps ensure that users can view only the data permitted by their assigned security role.
+
+## Conclusion
+
+These interactive features improve dashboard usability, provide flexible data exploration, and help users understand sales performance across different business dimensions.

@@ -1,0 +1,59 @@
+# Dataset Description
+
+## Dataset Overview
+
+This project uses the **Microsoft AdventureWorks Sample Dataset**, which represents a business sales environment containing information about products, customers, resellers, sales transactions, and geographical territories.
+
+The dataset provides structured information that helps analyze sales performance, profitability, customer behavior, and regional business trends.
+
+## Data Source
+
+- **Dataset Name:** AdventureWorks Sample Dataset
+- **Source:** Microsoft
+- **Format:** Relational Database
+- **Platform:** Microsoft SQL Server Sample Database
+- **Purpose:** Sales and business performance analysis
+
+**Source Link:**  
+https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure
+
+## Tables Used
+
+The following tables were used in the project:
+
+1. **Sales:** Contains sales transaction details and revenue-related information.
+2. **SalesOrder:** Contains sales order information.
+3. **Product:** Contains product details and product categories.
+4. **Customer:** Contains customer-related information.
+5. **Reseller:** Contains reseller details.
+6. **Date:** Contains date-related information for time-based analysis.
+7. **SalesTerritory:** Contains geographical and regional sales information.
+
+## Dataset Preparation
+
+The dataset was imported into Power BI and prepared for analysis using Power Query.
+
+The preparation process included:
+- Reviewing the available tables and columns.
+- Checking and correcting data types.
+- Cleaning and transforming the data.
+- Establishing relationships between relevant tables.
+- Preparing data for DAX calculations and dashboard development.
+
+## Analytical Usage
+
+The dataset was used to develop business performance indicators and visualizations, including:
+
+- Total Sales and Total Profit.
+- Profit Margin.
+- Regional Sales Performance.
+- Product Category Analysis.
+- Monthly Sales Trends.
+- Top 10 Products by Sales.
+- Top 10 Resellers by Sales.
+- Year-to-Date and Year-over-Year Analysis.
+
+## Dataset Purpose
+
+The primary purpose of using this dataset is to demonstrate how business intelligence tools can transform raw sales data into meaningful insights and support data-driven business decisions.
+

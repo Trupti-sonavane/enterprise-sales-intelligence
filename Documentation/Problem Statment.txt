@@ -1,0 +1,16 @@
+# Problem Statement
+
+Organizations generate large volumes of sales data across different regions, products, customers, and resellers. However, analyzing this data manually or through separate reports can make it difficult to identify sales trends, monitor business performance, and recognize areas that require improvement.
+
+The absence of a centralized and interactive reporting system can create challenges such as:
+
+- Difficulty in tracking overall sales and profit performance.
+- Limited visibility into regional sales performance.
+- Challenges in identifying profitable and underperforming product categories.
+- Difficulty in monitoring monthly sales trends.
+- Lack of clear insights into top-performing products and resellers.
+- Time-consuming manual analysis and reporting.
+
+Therefore, there is a need for an interactive Business Intelligence solution that consolidates sales information, calculates key performance indicators, and presents meaningful insights through visual reports.
+
+This project addresses these challenges by developing an **Enterprise Sales Intelligence Dashboard using Microsoft Power BI**, enabling users to analyze sales performance, explore business trends, and support data-driven decision-making.
