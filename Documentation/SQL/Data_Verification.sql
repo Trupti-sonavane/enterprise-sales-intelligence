@@ -1,0 +1,9 @@
+﻿dbo,Customer data
+dbo,Date data
+dbo,Product data
+dbo,Reseller data
+dbo,Sales data
+dbo,Sales_order data
+dbo,Sales_territory data
+dbo,stg_Customer data
+dbo,stg_Date data
